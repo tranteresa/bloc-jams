@@ -9,16 +9,16 @@ html {
      min-height: 100%;         /* says the height of the body must be, at minimum, 100% of the window */
  }
  
- body.landing {
+body.landing {
      background-color: rgb(58,23,63); /* sets the background color to an RGB value (see below) */
  }
 
- 	.navbar {
+.navbar {
      padding: 0.5rem;
      background-color: rgb(101,18,95);
 }
  
- 	.navbar .logo {
+.navbar .logo {
      position: relative; /* positioning will be explained in a resource */
      left: 2rem;
 }
@@ -30,7 +30,7 @@ html {
      background-repeat: no-repeat;
      background-position: center center;
      background-size: cover;
- }
+}
 
 .hero-content .hero-title {
      position: absolute;             /* positioning will be explained in a resource */
@@ -46,7 +46,7 @@ html {
      text-transform: uppercase;      /* transforms the text to be all uppercase lettering */
      letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
      text-shadow: 1px 1px 0px rgb(58,23,63); /* creates a shadow underneath the text for readability over the image */
- }
+}
 
 .selling-points {
      position: relative;
@@ -55,7 +55,7 @@ html {
      -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
      box-sizing: border-box; /* we'll explain this in a resource */
- }
+}
  
 .point {
      display: table-cell;
@@ -63,18 +63,18 @@ html {
      width: 33.3%;
      padding: 2rem;
      text-align: center;
- }
+}
  
 .point .point-title {
      font-size: 1.25rem;
- }
+}
  
 .ion-music-note,
 .ion-radio-waves,
 .ion-iphone {
      color: rgb(233,50,117);
      font-size: 5rem;
- }
+}
 
 
 
