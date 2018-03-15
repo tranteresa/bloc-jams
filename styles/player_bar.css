@@ -8,7 +8,7 @@
      z-index: 100;
  }
 
-  .player-bar a {
+.player-bar a {
      font-size: 1.1rem;
      vertical-align: middle;
  }
@@ -33,14 +33,14 @@
      vertical-align: middle;
  }
 
- /*Main Controls*/
+ /* Main Controls */
  
  .player-bar .main-controls {
      width: 25%;
      text-align: left;
      padding-right: 1rem;
  }
-
+ 
  .player-bar .main-controls .previous {
      margin-right: 16.5%;
  }
@@ -51,7 +51,7 @@
  }
  
 
- /*Currently Playing*/
+ /* Currently Playing */
  .player-bar .currently-playing {
      width: 50%;
      text-align: center;
