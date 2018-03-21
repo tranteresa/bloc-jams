@@ -20,10 +20,6 @@ var setVolume = function(volume) {
     }
 };
 
-<<<<<<< HEAD
-=======
-
->>>>>>> assignment-9-buzzLibrary
 var createSongRow = function(songNumber, songName, songLength) {
 
     var template =
@@ -87,11 +83,6 @@ var createSongRow = function(songNumber, songName, songLength) {
     $row.hover(onHover, offHover);
     return $row;
 };
-
-<<<<<<< HEAD
-
-=======
->>>>>>> assignment-9-buzzLibrary
 
 var getSongNumberCell = function(number) {
     return $('.song-item-number[data-song-number="' + number + '"]');
@@ -178,8 +169,6 @@ var nextSong = function() {
     $lastSongNumberCell.html(lastSongNumber);
 };
 
-<<<<<<< HEAD
-=======
 var togglePlayFromPlayerbar = function() {
     var $currentlyPlayingCell = getSongNumberCell(currentlyPlayingSongNumber);
     if (currentSoundFile.isPaused()) {
@@ -192,8 +181,6 @@ var togglePlayFromPlayerbar = function() {
         currentSoundFile.pause();
     }
 };
-
->>>>>>> assignment-9-buzzLibrary
 
 // Global Values
 // Album button templates
