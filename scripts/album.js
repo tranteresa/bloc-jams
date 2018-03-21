@@ -143,14 +143,15 @@ var filterTimeCode = function(timeInSeconds) {
     var wholeSeconds = Math.floor(seconds);
     var minutes = Math.floor(wholeSeconds / 60);
     
-    var remainingSeconds = wholeSeconds % 60;
+    var remainingSeconds = (wholeSeconds % 60);
+    var output = minutes + ':';
     
     if (remainingSeconds < 10) {
-        remainingSeconds = "0" + remainingSeconds; 
-    } else {
-        remainingSeconds = remainingSeconds;
+        output += '0';   
     }
-    return (minutes + ":" + remainingSeconds);
+    
+    output += remainingSeconds;
+    return (output);
 };
 
 var updateSeekBarWhileSongPlays = function() {
@@ -158,7 +159,6 @@ var updateSeekBarWhileSongPlays = function() {
 
         currentSoundFile.bind('timeupdate', function(event) {
             var currentTime = this.getTime();
-            var songLength = this.getDuration();
             var seekBarFillRatio = this.getTime() / this.getDuration();
             var $seekBar = $('.seek-control .seek-bar');
 
@@ -167,7 +167,7 @@ var updateSeekBarWhileSongPlays = function() {
         });
     }
 };
-
+    
 var updatePlayerBarSong = function() {
     $('.currently-playing .song-name').text(currentSongFromAlbum.name);
     $('.currently-playing .artist-name').text(currentAlbum.artist);
@@ -232,7 +232,6 @@ var setupSeekBars = function() {
     });
 
 };
-
 
 var trackIndex = function(album, song) {
     return album.songs.indexOf(song);
