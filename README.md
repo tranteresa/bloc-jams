@@ -40,7 +40,7 @@ HTML and CSS were used to create the structure and style of the web app, while J
 ## Demo
 Bloc Jams has 1 active album with 5 songs for testing. Checkout [Bloc Jams](http://tranteresa.github.io/bloc-jams/).
 
-![Alt Text](https://cl.ly/0q2F2M0G2l2u)
+![mobile_gif](https://github.com/tranteresa/bloc-jams/blob/master/readme_assets/mobile_gif.gif)
 
 ![homepage](https://github.com/tranteresa/bloc-jams/blob/master/readme_assets/homepage.png)
 
