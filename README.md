@@ -42,11 +42,11 @@ Bloc Jams has 1 active album with 5 songs for testing. Checkout [Bloc Jams](http
 
 ![Demo](https://cl.ly/0q2F2M0G2l2u)
 
-![homepage](homepage.png)
+![homepage](https://github.com/tranteresa/bloc-jams/blob/master/readme_assets/homepage.png)
 
-![collection_view](collection_view.png)
+![collection_view](https://github.com/tranteresa/bloc-jams/blob/master/readme_assets/collection_view.png)
 
-![album_view](album_view.png)
+![album_view](https://github.com/tranteresa/bloc-jams/blob/master/readme_assets/album_view.png)
 
 ## Resources
 * Bloc Curriculum
