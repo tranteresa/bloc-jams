@@ -8,27 +8,48 @@ This application was built as a part of Bloc's Frontend Foundations Curriculum.
 
 
 ## Problem
-The goal of Bloc Jams was to build a functioning music player from scratch while applying Frontend Development concepts. 
+The goal of Bloc Jams was to build a functioning music player from scratch to apply knowledge of HTML, CSS, JavaScript, jQuery, Git, and Github. 
+
 
 
 ## Solution
+Prior to my enrollment in Bloc, I was only familiar with HTML and CSS. The Bloc curriculum provided guidiance and resources to reinforced concepts in a project setting. 
 
-### Built With:
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+I used Git and Github content management systems to track updates and changes. Bloc Jams consists of three page types and several features. I built and tested each feature before commiting changes and pushing them to the master branch. 
+
+HTML and CSS were used to create the structure and style of the web app, while JavaScript was used for the interactive functionality. jQuery was used to refractor portions of the code. 
+
+
+### Features
+* Homepage
+* Collection View
+* Album View
+	* List of clickable songs
+	* Interactive Player Bar
+	
+
+## Built With
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [JQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery)
 * [Github](https://github.com/)
+* [Buzz Library](http://buzz.jaysalvat.com/)
+
 
 ## Demo
-Bloc Jams has 1 active album with 5 songs for testing. Checkout the [Bloc Jams](http://tranteresa.github.io/bloc-jams/).
+Bloc Jams has 1 active album with 5 songs for testing. Checkout [Bloc Jams](http://tranteresa.github.io/bloc-jams/).
 
-![Screenshot](homepage.png)
+![Demo](https://cl.ly/0q2F2M0G2l2u)
 
-![Screenshot](collection_view.png)
+![homepage](homepage.png)
 
-![Screenshot](album_view.png)
+![collection_view](collection_view.png)
 
-![Screenshot](mobile_view.png)
+![album_view](album_view.png)
 
+## Resources
+* Bloc Curriculum
+* [w3schools](https://www.w3schools.com/)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
  
